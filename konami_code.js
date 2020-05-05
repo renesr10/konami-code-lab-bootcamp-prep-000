@@ -18,10 +18,10 @@ function init() {
   
   const key = e.key;
  
-  if (key === alphabet[index]) {
+  if (key === codes[index]) {
     index++;
  
-    if (index === alphabet.length) {
+    if (index === codes.length) {
       alert("Hurray!");
  
       index = 0;
